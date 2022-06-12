@@ -1,0 +1,7 @@
+canvas{
+	position:fixed;/*设置定位*/
+	top:0;
+	left:0;
+	z-index:-1;/*使画布基于最低层*/
+	background:#0e1729;/*画布背景色*/
+}
