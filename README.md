@@ -1,9 +1,9 @@
 <p align="center">LQBBYの主页</p>
+
 <p>
 找了很多个人主页都不是很符合自己的理想，所以自己写了一个有科技感的个人主页
 希望大家喜欢 ❤️
 </p>
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lqbby2&repo=Tech-Home)](https://github.com/lqbby2/Tech-Home)
 
 ![LQBBYの主页](https://tc.lqbby.com/lqbby/2022/06/12/62a5ad34a4db0.webp)
 
