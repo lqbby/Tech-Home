@@ -5,7 +5,7 @@
 希望大家喜欢 ❤️
 </p>
 
-![LQBBYの主页](https://tc.lqbby.com/lqbby/2022/06/13/62a6f6a6c06f9.webp)
+![LQBBYの主页](https://tc.lqbby.com/lqbby/2022/06/13/62a705364e91b.webp)
 
 >和风天气 API 每日限量1000次，需 [自行申请](https://dev.qweather.com/)，或更换其他 API
 
