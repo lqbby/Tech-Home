@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -14,38 +14,25 @@
     <meta name="author" content="LQBBY">
     <title>LQBBYの主页</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./css/iconfont.css">    
+    <link rel="stylesheet" type="text/css" href="./css/iconfont.css">
     <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
     <link rel="icon" href="./favicon.ico">
-	<link rel="stylesheet" href="https://www.lqbby.com/bj/bj.css">
+    <link rel="stylesheet" href="./js/bj.js">
     <!--引入SweetAlert
     <script src="https://fastly.jsdelivr.net/npm/sweetalert@2.1.2/dist/sweetalert.min.js"></script>-->
     <script src="https://fastly.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
     <!--引入izitoast-->
     <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css">
-    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js"></script>
+    <script type="text/javascript"
+        src="https://fastly.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js"></script>
     <!--引入fontawesome-->
     <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/volantis-x/cdn-fontawesome-pro@master/css/all.min.css"
-        media="all">    
+        media="all">
     <!--科技炫酷按钮-->
     <link rel="stylesheet" type="text/css" href="./css/sey.css">
     <!--LQ网站监控-->
-    
-    <!--百度站长平台-->
-    <!--<script>
-    function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https'){
-    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    }
-    else{
-    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-    })();
-    /script>-->
+    <script async defer data-website-id="1e581f81-4a95-4be4-8449-c74742cf2475"
+        src="https://wz.lqbby.com/umami.js"></script>
     <!--IE淘汰计划-->
     <script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)) window.location.href = "https://imsyy.top/upgrade-your-browser/index.html?referrer=" + encodeURIComponent(window.location.href);</script>
 </head>
@@ -55,49 +42,51 @@
         <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
         <i class="social iconfont icon-ngleup btn-mobile-close__icon hidden"></i>
     </span>-->
-    <header id="panel" class="panel-cover" style="background: url(https://www.lqbby.com/upload/2022/06/0bee7ba5ac70155766648e14ae2a821f.webp;) center center / cover no-repeat rgb(102, 102, 102);">
-    <!--星空背景-->
-    <div id="stars"></div>
-	<div id="stars2"></div>
-	<div id="stars3"></div>
-    <!--天气api自己替换key-->
-    <div id="he-plugin-simple"></div>
-<script>
-WIDGET = {
-  "CONFIG": {
-    "modules": "01234",
-    "background": "5",
-    "tmpColor": "FFFFFF",
-    "tmpSize": "16",
-    "cityColor": "FFFFFF",
-    "citySize": "16",
-    "aqiColor": "FFFFFF",
-    "aqiSize": "16",
-    "weatherIconSize": "24",
-    "alertIconSize": "18",
-    "padding": "10px 10px 10px 10px",
-    "shadow": "1",
-    "language": "auto",
-    "borderRadius": "10",
-    "fixed": "false",
-    "vertical": "top",
-    "horizontal": "left",
-    "key": ""
-  }
-}
-</script>
-<script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
-	    
+    <header id="panel" class="panel-cover"
+        style="background: url(./images/kj.webp) center center / cover no-repeat rgb(102, 102, 102);">
+        <!--星空背景-->
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <!--天气-->
+        <div id="he-plugin-simple"></div>
+        <script>
+            WIDGET = {
+                "CONFIG": {
+                    "modules": "01234",
+                    "background": "5",
+                    "tmpColor": "FFFFFF",
+                    "tmpSize": "16",
+                    "cityColor": "FFFFFF",
+                    "citySize": "16",
+                    "aqiColor": "FFFFFF",
+                    "aqiSize": "16",
+                    "weatherIconSize": "24",
+                    "alertIconSize": "18",
+                    "padding": "10px 10px 10px 10px",
+                    "shadow": "1",
+                    "language": "auto",
+                    "borderRadius": "10",
+                    "fixed": "false",
+                    "vertical": "top",
+                    "horizontal": "left",
+                    "key": "f2607059cff84a809225dcce3ea360c0"
+                }
+            }
+        </script>
+        <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
+
         <div class="panel-main">
             <div class="panel-main__inner panel-inverted">
                 <div class="panel-main__content">
                     <div class="ih-item circle effect right_to_left">
                         <a class="blog-button">
-                            <div class="img"><img src="https://q1.qlogo.cn/g?b=qq&nk=1151581339&s=100" alt="img" class="js-avatar iUp profilepic">                            
+                            <div class="img"> <img src="https://q1.qlogo.cn/g?b=qq&nk=1151581339&s=100" alt="img"
+                                    class="js-avatar iUp profilepic header-logo">
                             </div>
                             <div class="info iUp">
                                 <div class="info-back">
-                                <img alt="img" src="./images/kl.gif" class="js-avatar profilepic">                                    
+                                    <img alt="img" src="./images/kl.gif" class="js-avatar profilepic">
                                 </div>
                             </div>
                         </a>
@@ -106,8 +95,9 @@ WIDGET = {
                         <br />LQBBY
                     </h1>
                     <p class="panel-cover__subtitle panel-subtitle iUp">be your true self</p>
-                    <canvas class="navigation-wrapper iUp" id="canvas" style="width:50%;padding-top:25px;" width="920" height="350"></canvas>				
-				    <script src="https://www.lqbby.com/time/clock.js"></script>
+                    <canvas class="navigation-wrapper iUp" id="canvas" style="width:50%;padding-top:0px;" width="920"
+                        height="350"></canvas>
+                    <script src="./js/clock.js"></script>
                     <hr class="iUp" />
                     <!--一言无法显示时的文字-->
                     <p id="description" class="panel-cover__description iUp">每一个人都应该明确自己的方向和位置
@@ -117,30 +107,35 @@ WIDGET = {
                     <div class="navigation-wrapper iUp">
                         <div>
                             <nav class="cover-navigation cover-navigation--primary">
-                                <ul class="navigation">                                                               
+                                <ul class="navigation">
                                     <li class="navigation__item">
-                                    <a href="https://www.lqbby.com/" style="--clr:#1e9bff"><span>博客</span><i></i></a>                                        
+                                        <a href="https://www.lqbby.com/"
+                                            style="--clr:#1e9bff"><span>博客</span><i></i></a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="https://wp.lqbby.com/" style="--clr:#f85d5d"><span>网盘</span><i></i></a> 
+                                        <a href="https://al.lqbby.com:1443/"
+                                            style="--clr:#f85d5d"><span>网盘</span><i></i></a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="https://llq.lqbby.com/" style="--clr:#ff1867"><span>导航</span><i></i></a> 
+                                        <a href="https://llq.lqbby.com/"
+                                            style="--clr:#ff1867"><span>导航</span><i></i></a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="https://qd.lqbby.com/" style="--clr:#ebe417"><span>签到</span><i></i></a> 
+                                        <a href="https://qd.lqbby.com/" style="--clr:#ebe417"><span>签到</span><i></i></a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="https://bz.lqbby.com/" style="--clr:#eb2feb"><span>壁纸</span><i></i></a> 
+                                        <a href="https://bz.lqbby.com:1443/"
+                                            style="--clr:#eb2feb"><span>壁纸</span><i></i></a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="https://api.lqbby.com/" style="--clr:#28a745"><span>青龙api</span><i></i></a> 
+                                        <a href="https://api.lqbby.com:1443"
+                                            style="--clr:#28a745"><span>青龙api</span><i></i></a>
                                     </li>
                                 </ul>
                             </nav>
-                                    
+
                         </div>
-                       <div class="iUp">                      
+                        <div class="iUp">
                             <nav class="cover-navigation navigation--social">
                                 <ul class="navigation">
                                     <li class="navigation__item">
@@ -162,8 +157,8 @@ WIDGET = {
                                         </a>
                                     </li>
                                     <li class="navigation__item">
-                                        <a href="https://wpa.qq.com/msgrd?v=3&uin=1151581339&site=qq&menu=yes" title="QQ"
-                                            target="_blank">
+                                        <a href="https://wpa.qq.com/msgrd?v=3&uin=1151581339&site=qq&menu=yes"
+                                            title="QQ" target="_blank">
                                             <j class="fab fa-qq"></j>
                                             <span class="label">QQ</span>
                                         </a>
@@ -200,15 +195,20 @@ WIDGET = {
             <div class="panel-cover--overlay cover-slate"></div>
         </div>
         <div class="remark iUp">
-            <p class="power">Copyright © 2022 
-            <script>document.write(' - ' + (new Date()).getFullYear())</script> LQBBY
-            </p>           
+            <p class="power">Copyright © 2022
+                <script>document.write(' - ' + (new Date()).getFullYear())</script> LQBBY
+            </p>
         </div>
     </header>
-    <!--izitoast弹窗设置-->
+    <!--黑暗主题-->
+
+
+
+
+    <!--izitoast弹窗设置
     <script>
         iziToast.settings({
-            timeout: 4000,//调试
+            timeout: 4000,
             icon: 'Fontawesome',
             closeOnEscape: 'true',
             position: 'topRight',
@@ -217,9 +217,8 @@ WIDGET = {
             layout: '2',
             transitionIn: 'bounceInLeft',
         });
-    </script>
-    <!--izitoast内容-->
     <script>
+    
         function update() {
             iziToast.info({
                 icon: 'fad fa-times-octagon',
@@ -228,9 +227,10 @@ WIDGET = {
                 message: '只是出现了一点小问题 ~'
             });
         }
+        -->
     </script>
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/fetch.min.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
-</body>
 
+</body>
